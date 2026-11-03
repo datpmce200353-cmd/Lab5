@@ -1,0 +1,44 @@
+GowinSynthesis start
+Running parser ...
+Analyzing VHDL file 'E:\FAP201\LAB\Lab5\sim\Lab5_tb.vhd'
+Analyzing entity 'lab05_tb'("E:\FAP201\LAB\Lab5\sim\Lab5_tb.vhd":4)
+Analyzing architecture 'sim'("E:\FAP201\LAB\Lab5\sim\Lab5_tb.vhd":7)
+WARN  (EX4760) : 'lab05' is not compiled in library 'work'("E:\FAP201\LAB\Lab5\sim\Lab5_tb.vhd":23)
+WARN  (EX4760) : 'env' is not compiled in library 'std'("E:\FAP201\LAB\Lab5\sim\Lab5_tb.vhd":110)
+Library 'std' is mapped to 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\vhdl_packages\vhdl_1993\std'("E:\FAP201\LAB\Lab5\sim\Lab5_tb.vhd":110)
+Library 'std' is mapped to 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\vhdl_packages\vhdl_1993\std'("E:\FAP201\LAB\Lab5\sim\Lab5_tb.vhd":110)
+Library 'std' is mapped to 'C:\Gowin\Gowin_V1.9.11.03_Education_x64\IDE\bin\vhdl_packages\vhdl_1993\std'("E:\FAP201\LAB\Lab5\sim\Lab5_tb.vhd":110)
+Analyzing VHDL file 'E:\FAP201\LAB\Lab5\src\lfsr_timer.vhd'
+Analyzing entity 'lfsr_timer'("E:\FAP201\LAB\Lab5\src\lfsr_timer.vhd":3)
+Analyzing architecture 'rtl'("E:\FAP201\LAB\Lab5\src\lfsr_timer.vhd":17)
+Analyzing VHDL file 'E:\FAP201\LAB\Lab5\src\demux_1_to_4.vhd'
+Analyzing entity 'demux_1_to_4'("E:\FAP201\LAB\Lab5\src\demux_1_to_4.vhd":3)
+Analyzing architecture 'rtl'("E:\FAP201\LAB\Lab5\src\demux_1_to_4.vhd":14)
+Analyzing VHDL file 'E:\FAP201\LAB\Lab5\src\Lab5.vhd'
+Analyzing entity 'lab5'("E:\FAP201\LAB\Lab5\src\Lab5.vhd":3)
+Analyzing architecture 'rtl'("E:\FAP201\LAB\Lab5\src\Lab5.vhd":18)
+Statement containing an event control without an edged expression will not be converted to an explicit state machine("E:\FAP201\LAB\Lab5\sim\Lab5_tb.vhd":112)
+Processing 'Lab5(RTL)'("E:\FAP201\LAB\Lab5\src\Lab5.vhd":3)
+Processing 'lfsr_timer(RTL)'("E:\FAP201\LAB\Lab5\src\lfsr_timer.vhd":3)
+Processing 'demux_1_to_4(RTL)'("E:\FAP201\LAB\Lab5\src\demux_1_to_4.vhd":3)
+'others' clause is never selected("E:\FAP201\LAB\Lab5\src\demux_1_to_4.vhd":30)
+NOTE  (EX0101) : Current top module is "Lab5"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "E:\FAP201\LAB\Lab5\impl\gwsynthesis\Lab5.vg" completed
+[100%] Generate report file "E:\FAP201\LAB\Lab5\impl\gwsynthesis\Lab5_syn.rpt.html" completed
+GowinSynthesis finish

@@ -1,0 +1,13 @@
+// FAP201 - Lab05 Selectively Blinking an LED
+// Target: GW5A-LV25UG324C2/I1
+// Pin source: official ACG525 GPIO-PIN table
+IO_LOC "i_Clk" T9;
+IO_LOC "i_Switch_1" B16;
+IO_LOC "i_Switch_2" A15;
+IO_LOC "i_Rst" C15;
+IO_LOC "o_LED_1" D14;
+IO_LOC "o_LED_2" C14;
+IO_LOC "o_LED_3" B9;
+IO_LOC "o_LED_4" A9;
+// Do NOT invent PULL_MODE, DRIVE, IO_TYPE/BANK_VCCIO here.
+// Add electrical attributes only after verifying board/device documentation.
